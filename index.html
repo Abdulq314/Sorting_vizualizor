@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SORTING VIZUALIZER</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="controls">
+        <div class="select">
+            <select name="sorting" id="sort" >
+                <option value="" disabled selected hidden>Select Algorithm</option>
+                <option value="Bubble">BUBBLE SORT</option>
+                <option value="Selection">SELECTION SORT</option>
+                <option value="Insertion">INSERTION SORT</option>
+            </select>
+        </div>
+        <div class="select">
+            <select name="sorting" id="size" >
+                <option value="" disabled selected hidden>Select Size</option>
+                <option value="5">5</option>
+                <option value="10">10</option>
+                <option value="20">20</option>
+                <option value="30">30</option>
+                <option value="40">40</option>
+                <option value="50">50</option>
+            </select>
+        </div>
+        <div class="button">
+            <Button class="btn" id='array_btn'>Generate Array</Button> 
+        </div>
+        <div class="sliderContainer">
+            <label for="speed">Speed:<br></label>
+            <input type="range" name="speed" id="speed" min='0' max="100" value="50" class="slider">
+        </div>
+    </div>
+
+        <div class="array_container" id="array">
+
+        </div>
+
+        <button class="btn" id="strt">START</button>
+
+        
+        
+
+
+
+        <script src="/main.js"></script>
+</body>
+</html>
